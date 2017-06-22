@@ -1,9 +1,36 @@
+body{
+	background-color: #dddfd4;
+}
+header {
+	display: flex;
+	background-color: #3fb0ac;
+	margin-bottom: 10px;
+}
 #logo {
-
+	flex: 2;
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
 }
 #logo img{
-	display: inline;
+	width: 50px;
+	height: 50px;
 }
 #logo h1{
 	display: inline;
+	margin:10px;
+}
+#nav {
+	flex: 5;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin: 10px;
+}
+#nav ul li{
+	display: inline;
+	margin: 5px;
+}
+#nav ul li a {
+	color: white;
 }
