@@ -42,6 +42,7 @@ header {
 	flex: 1;
 	background-color: #173f43;
 	padding: 2%;
+	margin-right: 2%;
 }
 #sidebar p{
 	margin: 10% 10%;
@@ -50,9 +51,19 @@ header {
 	margin: 0px;
 }
 #right_content {
-	flex:2;
+	flex:3;
 	display: flex;
+	margin-left: 2%;
+}
+#right_content a{
+	color:#55dbcb;
+	text-decoration: none;
 }
 .row {
-
+	flex: 1;
+}
+.column {
+	flex: 1;
+	background-color: #173f43;
+	padding: 10%;
 }
